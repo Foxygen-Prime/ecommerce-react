@@ -20,8 +20,8 @@ ReactDOM.render(
           <Route path="/wares" component={Wares}/>
           <Route path="/spells" component={Spells}/>
           <Route path="/potions" component={Potions}/>
-          {/* <Route path="/contact" component={Contact}/>
-          <Route path="/about" component={About} /> */}
+          <Route path="/contact" component={Contact}/>
+          {/* <Route path="/about" component={About} /> */}
         </Switch>
       </div>
     </BaseLayout>
