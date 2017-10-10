@@ -7,6 +7,7 @@ import BaseLayout from './Components/Layout.js';
 import Wares from './Components/Wares';
 import Spells from './Components/Spells';
 import Potions from './Components/Potions';
+import Contact from './Components/Contactform';
 import shopInventory  from "./Data/data.js";
 
 import registerServiceWorker from './registerServiceWorker';

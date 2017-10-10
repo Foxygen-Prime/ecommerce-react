@@ -9,12 +9,19 @@ export default class Contact extends Component {
 
   render() {
     return (
-
+    <div>
       <form>
-        <input type= "text" value= "Name">Nme</input>
-        <input type= "text" value= "email">Emal</input>
+        <label>
+          Name:
+        <input type= "text" name= "Name"/>
+        </label>
+        <label>
+          Name:
+        <input type= "text" name= "email"/>
+        </label>
       </form>
+    </div>
 
 
-          });
+  )};
         }
