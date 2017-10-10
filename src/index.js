@@ -16,9 +16,9 @@ ReactDOM.render(
         <Switch>
           <Route exact path="/" component={App}/>
           <Route path="/wares" component={Wares}/>
-          {/* <Route path="/spells" component={Spells}/>
+          <Route path="/spells" component={Spells}/>
           <Route path="/potions" component={Potions}/>
-          <Route path="/contact" component={Contact}/>
+          {/* <Route path="/contact" component={Contact}/>
           <Route path="/about" component={About} /> */}
         </Switch>
       </div>
