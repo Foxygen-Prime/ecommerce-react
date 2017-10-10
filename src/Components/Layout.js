@@ -26,6 +26,9 @@ export default class BaseLayout extends Component {
         <li>
           <NavLink activeClassName="selected" to="/cart">Shopping Cart</NavLink>
         </li>
+        <li>
+          <NavLink activeClassName="selected" to="/about">All about us!</NavLink>
+        </li>
       </ul>
     </nav>
   </div>

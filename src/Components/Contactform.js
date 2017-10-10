@@ -15,9 +15,10 @@ export default class Contact extends Component {
           Name:
         <input type= "text" name= "Name"/>
         </label>
+        <br></br>
         <label>
-          Name:
-        <input type= "text" name= "email"/>
+          Email:
+        <textarea type= "text" name= "email"/>
         </label>
       </form>
     </div>

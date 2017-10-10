@@ -8,6 +8,7 @@ import Wares from './Components/Wares';
 import Spells from './Components/Spells';
 import Potions from './Components/Potions';
 import Contact from './Components/Contactform';
+import About from './Components/About';
 import shopInventory  from "./Data/data.js";
 
 import registerServiceWorker from './registerServiceWorker';
@@ -22,7 +23,7 @@ ReactDOM.render(
           <Route path="/spells" component={Spells}/>
           <Route path="/potions" component={Potions}/>
           <Route path="/contact" component={Contact}/>
-          {/* <Route path="/about" component={About} /> */}
+          <Route path="/about" component={About} />
         </Switch>
       </div>
     </BaseLayout>
