@@ -5,6 +5,8 @@ import App from './Components/App';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import BaseLayout from './Components/Layout.js';
 import Wares from './Components/Wares';
+import Spells from './Components/Spells';
+import Potions from './Components/Potions';
 import shopInventory  from "./Data/data.js";
 
 import registerServiceWorker from './registerServiceWorker';
